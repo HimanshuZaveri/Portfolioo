@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    
+}
+
+.navBar{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(7, 6, 6);    
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: aliceblue;
+    font-size: 1.2rem;
+}
+
+.navBar button{
+    margin-left: 10px;
+    border-radius: 3px;
+    color: rgb(230, 23, 23);
+    background-color : white;
+    font-weight: bold;
+    border: none;
+}
+
+.navBar ul{
+    list-style: none;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: aliceblue;
+}
+
+.navBar ul li{    
+    padding-left: 1.5%;
+    padding-right: 1%;
+    font-weight: bold;
+}
+
+.navBar ul li  a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.navBar ul li a:hover{
+    color: rgb(230, 23, 23);
+    background-color: azure;
+    border-radius: 2px;
+}
+
+/* Home Page CSS */
+
+.home{
+    padding-top: 60px;
+    width: 100%;
+    background-color: rgb(21, 9, 29); 
+    min-height: 90.8vh;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Left Side CSS */
+
+.leftContentHome{
+    display: flex;
+    flex-direction: column;
+    min-width: 50vw;
+    width: 50%;
+}
+
+.home .leftContentHome .nameHolder{
+    padding-left: 4%;
+    padding-top: 5%;
+    
+}
+
+.home .leftContentHome #name{
+    color: aliceblue;
+    font-size: 4rem;
+}
+
+.home .leftContentHome #designation{
+    color: aliceblue;
+    font-size: 2.4rem;
+}
+
+.home .leftContentHome #aboutMe{
+    color: rgb(167, 207, 243);
+    padding-top: 4%;
+    font-size: 1.4rem;
+    text-align: justify;
+}
+
+/* Right Side Image Card */
+
+.home #imageCard{
+    min-width: 20rem;
+    min-height: 20rem;
+    height: 57vh;
+    width: 30%;
+    background-color: aliceblue;
+    border: 4px solid red;
+    margin-right: 8%;
+    margin-top: 5%;
+    margin-left: 5%;
+    display: flex;
+    border-radius: 30px;
+    overflow: hidden;
+}
